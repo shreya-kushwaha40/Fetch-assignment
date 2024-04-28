@@ -1,0 +1,33 @@
+*{
+    margin:auto;
+    padding:0px;
+}
+/* #container{
+    border: none;
+    box-shadow: none;
+    height:auto;
+} */
+button{
+    padding:6px;
+    border:2px solid transparent;
+    background-color: green;
+    font-weight:bold;
+    font-family: sans-serif;
+    display: block;
+}
+#container > div{
+    height:auto;
+    width:53%; 
+    border:1px solid black transparent;
+    margin-top:10px;
+    padding:12px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.clicked{
+    background-color: red;
+    color:white;
+}
